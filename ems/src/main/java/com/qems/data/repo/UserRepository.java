@@ -1,8 +1,8 @@
-package com.awraaq.ems.data.repo;
+package com.qems.data.repo;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.awraaq.ems.data.model.User;
+import com.qems.data.model.User;
 
 public interface UserRepository extends JpaRepository<User, Integer> {
 

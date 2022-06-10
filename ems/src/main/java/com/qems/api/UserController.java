@@ -1,4 +1,4 @@
-package com.awraaq.ems.api;
+package com.qems.api;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.awraaq.ems.data.model.User;
-import com.awraaq.ems.data.repo.UserRepository;
+import com.qems.data.model.User;
+import com.qems.data.repo.UserRepository;
 
 @Controller
 public class UserController {

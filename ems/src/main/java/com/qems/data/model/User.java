@@ -1,4 +1,4 @@
-package com.awraaq.ems.data.model;
+package com.qems.data.model;
 
 import java.io.Serializable;
 
