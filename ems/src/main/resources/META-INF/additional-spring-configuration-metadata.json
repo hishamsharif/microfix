@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "endpoints.health.sensitive",
+    "type": "java.lang.String",
+    "description": "A description for 'endpoints.health.sensitive'"
+  },
+  {
+    "name": "management.security.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'management.security.enabled'"
+  }
+]}
