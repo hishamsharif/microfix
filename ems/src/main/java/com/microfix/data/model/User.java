@@ -1,4 +1,4 @@
-package com.qems.data.model;
+package com.microfix.data.model;
 
 import java.io.Serializable;
 
