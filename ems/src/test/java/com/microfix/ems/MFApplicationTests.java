@@ -1,10 +1,10 @@
-package com.awraaq.ems;
+package com.microfix.ems;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class EmsApplicationTests {
+class MFApplicationTests {
 
 	@Test
 	void contextLoads() {

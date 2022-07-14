@@ -23,6 +23,10 @@ public class WebSecurityConfig { // extends WebSecurityConfigurerAdapter {
 		 
 		)
 		;
+		
+		// Disable the CORS to allow access from cross site (i.e. POST man)
+		http.cors().and().csrf().disable();
+		
 		return http.build();
 	}
 

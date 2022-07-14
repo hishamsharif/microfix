@@ -1,4 +1,4 @@
-package com.awraaq.ems;
+package com.microfix.ems;
 
 import static org.assertj.core.api.BDDAssertions.then;
 
@@ -24,7 +24,7 @@ import org.springframework.test.context.TestPropertySource;
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @TestPropertySource(properties = {"management.port=0"})
 @ActiveProfiles("test")
-public class EmsApplicationTest {
+public class MFApplicationTest {
 
   @LocalServerPort
   private int port;
